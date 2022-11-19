@@ -47,7 +47,7 @@
                             </Grid.RowDefinitions>
                             <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Height="22">
                                 <TextBlock>Таб. №</TextBlock>
-                                <TextBox Height="20" Width="100" Margin="0 -2 0 0">0001</TextBox>
+                                <TextBox Height="20" Width="100" Margin="0 -2 0 0" HorizontalContentAlignment="Right">0001</TextBox>
                                 <TextBlock Margin="140 0 0 0">Пол</TextBlock>
                                 <RadioButton VerticalAlignment="Center" IsChecked="True">муж.</RadioButton>
                                 <RadioButton VerticalAlignment="Center">жен.</RadioButton>
@@ -133,7 +133,7 @@
                                             </Grid.ColumnDefinitions>
                                             <StackPanel Grid.Column="0">
                                                 <TextBlock>Индекс:</TextBlock>
-                                                <TextBox HorizontalAlignment="Left" Width="130">420075</TextBox>
+                                                <TextBox HorizontalAlignment="Left" Width="130" >420075</TextBox>
                                             </StackPanel>
                                             <StackPanel Grid.Column="1">
                                                 <TextBlock>Адрес:</TextBlock>
@@ -209,13 +209,13 @@
                                 <TextBlock Margin="15 0 0 0">Зар.плата, тн:</TextBlock>
                             </StackPanel>
                             <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Orientation="Horizontal" Grid.Row="3" Height="20" Width="331">
-                                <TextBox Width="70" Height="20">2</TextBox>
+                                <TextBox Width="70" Height="20" HorizontalContentAlignment="Right">2</TextBox>
                                 <TextBlock Margin="5 0 5 0">*</TextBlock>
-                                <TextBox Width="70" Height="20">1230000</TextBox>
+                                <TextBox Width="70" Height="20" HorizontalContentAlignment="Right">1230000</TextBox>
                                 <TextBlock Margin="5 0 5 0">+</TextBlock>
-                                <TextBox Width="70" Height="20">500000</TextBox>
+                                <TextBox Width="70" Height="20" HorizontalContentAlignment="Right">500000</TextBox>
                                 <TextBlock Margin="5 0 5 0">=</TextBlock>
-                                <TextBox Width="70"  Height="20">2960000</TextBox>
+                                <TextBox Width="70"  Height="20" HorizontalContentAlignment="Right">2960000</TextBox>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal" Grid.Row="4" VerticalAlignment="Top" Height="20">
                                 <TextBlock HorizontalAlignment="Left">Договор №</TextBlock>
