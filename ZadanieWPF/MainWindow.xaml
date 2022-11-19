@@ -280,19 +280,19 @@
                                 <TextBlock >
                                     Учереждение
                                 </TextBlock>
-                                <TextBox x:Name="Yher" Margin=" 10 0 0 0" Width="500">"Алматинский Академия Экономики и Статистики (ААЭС)"</TextBox>
+                                <TextBox x:Name="Yher" Margin=" 10 0 0 0" Width="450">"Алматинский Академия Экономики и Статистики (ААЭС)"</TextBox>
                             </StackPanel>
                             <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
                                 <TextBlock >
                                     Квалификация
                                 </TextBlock>
-                                <TextBox x:Name="Kval" Margin=" 10 0 0 0" Width="500">бакалавр</TextBox>
+                                <TextBox x:Name="Kval" Margin="5 0 0 0" Width="450">Бакалавр</TextBox>
                             </StackPanel>
                             <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
                                 <TextBlock >
                                     Спецальность
                                 </TextBlock>
-                                <TextBox x:Name="Spec"  Margin=" 10 0 0 0" Width="500">Экономист</TextBox>
+                                <TextBox x:Name="Spec"  Margin=" 9 0 0 0" Width="450">Экономист</TextBox>
                             </StackPanel>
 
                             <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
