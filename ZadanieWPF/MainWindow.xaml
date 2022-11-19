@@ -57,7 +57,7 @@
                                 <TextBlock Margin="120 0 0 0">Имя:</TextBlock>
                                 <TextBlock Margin="170 0 0 0">Отчество:</TextBlock>
                             </StackPanel>
-                            <StackPanel Orientation="Horizontal" Grid.Row="2" VerticalAlignment="Top" Height="16">
+                            <StackPanel Orientation="Horizontal" Grid.Row="2" VerticalAlignment="Top" Height="18">
                                 <TextBox Width="120">Барецкий</TextBox>
                                 <TextBox Width="120" Margin="50 0 0 0">Станислав</TextBox>
                                 <TextBox Width="120" Margin="80 0 0 0">Валерьевич</TextBox>
